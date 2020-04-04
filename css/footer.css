@@ -1,0 +1,44 @@
+
+
+
+/* ----------footer */
+    .site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4{
+        font-size: 16px;
+        color: #ff5912;
+    }
+
+.site-footer{
+    min-width: 1200px;
+    background: #fff;
+    padding: 60px 0 44px 0;
+    font-size: 14px;
+}
+.block-370-footer{
+    width: 30.8333%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+}
+.block-170{
+    width: 14.16666%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.copyright{
+    margin-top: 20px;
+}
+ul.footer-nav a{
+    color: #28313b;
+    text-decoration: none;
+}
+ul.footer-nav a:hover{
+    color: #ff5912;
+}
+ul.footer-nav .active{
+    color: #ff5912;
+}
+ul.footer-nav li{
+    margin-bottom: 15px;
+}

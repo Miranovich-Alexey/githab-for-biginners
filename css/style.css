@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Arial, Tahoma, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    background: #f6f8f9;   
+    color: #44525e;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+
+h1{
+    color: #ff5912;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+h3{
+    margin: 120px 0 30px;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3 span{
+   color: #ff7013;
+}
+
+
+.section-description{
+    text-align: center;
+    color: #495662;
+}
+
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.container2{
+    margin: 120px 0; 
+}
+
+.row{
+    margin: 0 -1.25%;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* -------------block-dabl-900-------------- */
+
+
+.block-dabl-900{
+    width: 100%;
+    max-width: 1200px;
+    min-height: 60px;
+    float: left;
+    background: #fff;
+    margin-left: 1.25%;
+}
+.ellipsis{
+    width: 40px;
+    height: 10px;
+    float: left;
+    margin: 25px 48%;
+}
+.circle{
+    width: 8px;
+    height: 8px;
+    background: #ff5912;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+
+/* -------------------block-1200---------------------- */
+
+.block-1200{
+    width: 100%;
+    max-width: 1200px;
+    max-height: 120px;
+    float: left;
+    margin: 120px 1.25%;
+    background: #fff;
+}
+
+ .block-name{
+    float: left;
+    margin: 4% 3% 4% 6%;
+    font-weight: 600;
+    color: #ff5912;
+}
+ .block-text{
+    float: left;
+    margin: 4% 0;
+}
+ .block-email input ,.block-1200 button{
+    border: none;
+    
+}
+ .block-email{
+    float: left;
+    margin: 4% 8% 4% 18%;
+}
+
+ button{
+    padding: 17px 29px;
+    margin: 2.5% 0;
+    background: #ff5912;
+}
+ button a{
+    color: #fff;
+}

@@ -1,0 +1,246 @@
+
+
+
+/* ---------------------block-300----------------- */
+
+.block-270{
+    width: 30%;
+    min-height: 100px;
+    max-height: 382px;
+    float: left;
+    margin-right: 2.5%;  
+    margin-bottom: 20px;    
+}
+
+.block-300{
+    width: 22.5%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;      
+}
+.block-900{
+    width: 72.5%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.sidebar-block{
+    width: 97.5%;
+    background: #fff;
+    margin:0 1.25% 30px 1.25%;
+    padding: 20px 0;
+}
+
+.sidebar-block h3{
+    font-size: 16px;
+    color: #ff5912;
+    margin: 20px 0 0 40px;
+    text-align: inherit;
+    font-weight: 800;
+}
+
+.sidebar-block ul{
+    list-style: none;
+}
+
+.sidebar-block ul li{
+    font-size: 16px;
+    font-weight: 600;
+    color: #34404b;
+    line-height: 50px;
+}
+
+.sidebar-block ul li a{
+    color: #34404b;
+}
+
+.sidebar-block ul li a:hover{
+    color: #ff5912;
+}
+
+
+.active-square::before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border: #ff5912 solid 4px;
+}
+
+.inactive-square::before{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: #edf0f2;
+}
+
+.active-square::before, .inactive-square::before{
+    margin-right: 15px;
+}
+
+/* -------------dabl-block----------- */
+
+.dabl-block{
+    position: relative;
+    min-height: 100px;
+    margin-top: 35px;
+}
+
+.line{
+    position: absolute;
+    top: 38px;
+    right: 40px;
+    left: 40px;
+    height: 4px;
+    background-color: #edf0f2;;
+}
+
+.line2{
+    position: absolute;
+    top: 38px;
+    right: 70px;
+    left: 70px;
+    height: 4px;
+    background: #34404b;
+}
+
+.dot{
+    height: 11px;
+    width: 11px;
+    background: #34404b;
+    border-radius: 100%;
+    margin: 16px auto;
+}
+
+.left-dot{
+    position: absolute;
+    left: 48px;
+}
+.right-dot{
+    position: absolute;
+    right: 48px;
+}
+
+.slaider-from-to{
+    position: absolute;
+    top: 70px;
+    left: 40px;
+    
+}
+.slaider-from-to input{
+    width: 45px;
+    background: #edf0f2;
+    margin-right: 20px;
+}
+/* ------The end dabl-block----- */
+
+/* -----------block-900----------------- */
+
+.goods-cart{   
+    background: #ffffff;
+    text-align: center;
+}
+
+.block-270 .goods-cart .active-name, .size, .color-circles, .block-line, .block-icons{
+    margin: 20px 0;
+} 
+
+.block-270 .goods-cart .mini-img{
+    margin: 22px 0;
+    width: 70px;
+    height: 87px;
+}
+.block-270 .goods-cart .size span{
+    margin: 0 7px;
+}
+
+.block-270 .active-name {
+    color: #ff5912;
+    font-weight: 600;
+}
+.block-270 .block-line{
+    width: 170px;
+    height: 1px;
+    background: #f2f4f7;
+    margin: 0 auto;
+}
+.block-270 .block-icons img{
+    margin: 18px 14px;
+}
+
+
+
+
+
+.goods-cart img, .goods-cart .goods-name{
+    margin: 18px 0;
+    font-weight: 600;
+}
+
+.goods-cart .cost{
+    padding: 30px;
+    color: #ff5912;
+    font-weight: 600;
+}
+.block-dabl-900{
+    width: 95%;
+    min-height: 60px;
+    float: left;
+    background: #fff;
+}
+.ellipsis{
+    width: 40px;
+    height: 10px;
+    float: left;
+    margin: 25px 48%;
+}
+.circle{
+    width: 8px;
+    height: 8px;
+    background: #ff5912;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+/* -------------------block-1200---------------------- */
+
+.block-1200{
+    width: 95%;
+    max-height: 120px;
+    float: left;
+    margin: 120px 1.25%;
+    background: #fff;
+}
+
+.block-1200 .block-name{
+    float: left;
+    margin: 4% 3% 4% 6%;
+    font-weight: 600;
+    color: #ff5912;
+}
+.block-1200 .block-text{
+    float: left;
+    margin: 4% 0;
+}
+.block-1200  .block-email input ,.block-1200 button{
+    border: none;
+    
+}
+.block-1200 .block-email{
+    float: left;
+    margin: 4% 8% 4% 18%;
+}
+
+.block-1200 button{
+    float: left;
+    padding: 17px 29px;
+    margin: 2.5% 0;
+    background: #ff5912;
+}
+.block-1200 button {
+    color: #fff;
+}
+
+

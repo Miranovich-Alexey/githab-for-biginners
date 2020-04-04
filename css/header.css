@@ -1,0 +1,103 @@
+
+
+
+
+/* ----------header----- */
+
+
+.block-770{
+    width: 64.1666%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.block-170{
+    width: 14.16666%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+}
+
+
+
+.site-header{
+    min-width: 1200px;
+    min-height: 180px;
+    background: #fff;
+    border-bottom: 1px solid #e6e8eb;
+}
+
+.site-header a{
+    list-style: none;
+    text-decoration: none;
+    color: #34404b;;
+}
+
+.contact-header{
+    min-height: 60px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e6e8eb;   
+}
+
+.block-168{
+    width: 14%;
+    float: left;
+    margin-top: 18px;
+}
+.block-168 img, .block-840 img{
+    margin-right: 10px;
+}
+.block-840{
+    width: 70%;
+    float: left;
+    margin-top: 18px;
+}
+
+
+.block-144{
+    width: 12%;
+    float: right; 
+    margin-top: 18px;  
+}
+.block-144 img{
+    margin-right: 15px;
+}
+.block-170 .main-logo{
+    margin-top: 24%;
+}
+.block-770 .main-nav{
+    margin-top: 7%;
+}
+.block-770 .main-nav li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.block-770 .main-nav a:hover{
+    color: #ff5912;
+}
+
+.block-770 .main-nav .active{
+    color: #ff5912;
+}
+.block-170 .ico-line{
+    position: relative;
+}
+.ico-line a span{
+    display: block;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 38px;
+    right: 32px;
+    background: #34404b;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+
+}
+.ico-line img{
+    margin: 50px 15px;
+}

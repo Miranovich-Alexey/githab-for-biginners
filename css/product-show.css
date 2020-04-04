@@ -1,0 +1,162 @@
+
+/* ------------------ single goods ------------------- */
+.single-goods {
+    min-width: 1200px;
+    background: #fff;
+    padding: 80px 0 100px;
+}
+
+.single-goods::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.single-goods-left {
+    float: left;
+    width: 37.5%;
+    margin: 0 1.25;
+    text-align: center;
+}
+.single-goods-right {
+    float: right;
+    width: 57.5%;
+    margin: 0 1.25;
+}
+
+.goods-img-max {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.goods-img-max img {
+    max-width: 100%;
+}
+
+.goods-img-min div {
+    width: 94px;
+    height: 68px;
+    overflow: hidden;
+    background:#f4f6f8;
+    display: inline-block;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.goods-img-min img {
+    max-width: 100%;
+}
+
+.goods-img-min div.active {
+    background: #ff5912;
+}
+
+.single-goods-card h1 {
+    color: #ff5912;
+}
+
+.single-goods-card .min-description {
+    font-size: 18px;
+    color: #3c4751;
+}
+
+.single-goods-card .full-description {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.choose-size {
+    font-size: 18px;
+    border-top: 1px solid #edeff1;
+    border-bottom: 1px solid #edeff1;
+    position: relative;
+}
+
+.choose-size::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.choose-size button {
+    background: none;
+    border: none;
+    color: #34404b;
+}
+
+.choose-size .left {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin-top: 22px;
+}
+
+.choose-size .active {
+    font-weight: bold;
+    color: #ff5912;
+}
+
+.choose-size .left::after{
+    content: '';
+    top: 30%;
+    left: 45%;
+    width: 2px;
+    height: 26px;
+    background: #edeff1;
+    display: inline-block;
+    position: absolute;
+}
+
+.choose-size .left span{
+    margin-top: 30px;
+}
+
+.choose-size .right {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.orders .price{
+    width: 50%;
+    float: left;
+    margin-top: 6%;
+    font-weight: bold;
+}
+
+.orders .icon-orders{
+    width: 25%;
+    float: left;
+    margin-top: 6%;
+}
+
+.icon-orders img{
+    margin-right: 10%;
+}
+
+.orders button{
+    border-radius: 30px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}        
+
+
+/* ---------block-270------------------ */
+
+.block-270 {
+    width: 22.5%;
+    min-height: 100px;
+    max-height: 370px;
+    float: left;
+    margin: 80px 1.25% 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.goods-cart img, .goods-cart .cost{
+    margin: 30px 0;
+    color: #ff5912;
+}

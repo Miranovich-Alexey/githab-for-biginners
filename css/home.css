@@ -1,0 +1,278 @@
+
+/* --------------slaider---------- */
+
+
+.slaider-on-top-bg{
+    min-width: 1200px;
+   background: #f5f5f7; 
+   min-height: 650px;                         ;
+}
+
+.slaider-on-top-bg img.images{   
+    float: right;
+    width: 40%;
+}
+
+.slaider-info{
+    float: left;
+    width: 60%;
+}
+
+
+
+.block-info{
+    width: 536px;
+    height: 200px;
+    margin: 20% 0 0 30%;
+    position: relative;
+}
+
+
+.block-info .slaider-text{
+    margin: 1em 0;
+}
+
+.block-info .clothes{
+    color: #3c4751;
+    font-size: 18px;
+}
+
+.block-info span{
+    font-size: 18px;
+    color: #34404b;
+    margin-right: 70px;
+}
+
+.block-info img{
+    position: absolute;
+    bottom: 18px;
+    left: 140px;
+}
+
+.block-info .color-red{
+    color: #ff5912;
+}
+
+
+
+.figure-wight{
+    width: 10px;
+    height: 17px;
+    background: #fff;
+
+    position: absolute;
+    left: -40px;
+    bottom: 40px;
+}
+
+.figure-wight-2{
+    width: 10px;
+    height: 17px;
+    background: #fff;
+
+    position: absolute;
+    left: -40px;
+    bottom: 120px;
+}
+
+
+.figure-red{
+    width: 10px;
+    height: 36px;
+    background: #ff5912;
+
+    position: absolute;
+    left: -40px;
+    bottom: 70px;
+}
+
+
+
+/* --------------block-270-------------- */
+
+.block-270{
+    width: 22.5%;
+    min-height: 100px;
+    max-height: 370px;
+    float: left;
+    margin: 80px 1.25%;  
+    text-align: center;
+    background-color: #fff;    
+}
+
+.block-270 .block-line{
+    width: 170px;
+    height: 1px;
+    background: #f2f4f7;
+    margin: 0 auto;
+}
+
+.block-270 .block-icons img{
+    margin: 26px 14px;
+}
+
+.goods-cart img, .goods-cart .cost{
+    margin: 30px 0;
+}
+.goods-cart .size{
+    margin-top: 30px;
+}
+
+
+/* ---------------block-adv------------- */
+
+
+.winter-kit{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    background: #fff;
+    border: 1px solid #eaedef;
+    margin: 0 1.25%;
+}
+.winter-kit .sale{
+   width: 25%;
+   float: left;
+   margin: 0 2%;
+}
+.sale-img{
+    margin: 10px 50px;
+}
+.winter-kit .slogan{
+    width: 40%;
+    float: left;
+    text-align: left;
+    margin: 0 2%;
+}
+.winter-kit .slogan h3{
+    color: #34404b;
+    font-size: 22px;
+    margin: 0;
+    padding-top: 18px;
+}
+.winter-kit .slogan p{
+    color: #495662;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.winter-kit .adv-price{
+    width: 23%;
+    min-height: 100px;
+    float: left;
+    margin: 0 2%;
+    color: #ff5912;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 100px;
+    text-align: center;
+    
+}
+.winter-kit .adv-price p::before{
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 20px;
+    background-image: url(../images/Telega.png);
+}
+.winter-kit .adv-price span{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/* --------------block-adv---------------- */
+
+
+.block-adv{
+    margin: 120px 0;
+}
+
+.adv-area{
+    float: left;
+    width: 45%;
+    min-height: 100px;
+    background: #fff;
+    border: 1px solid #eaedef;
+    margin: 0 1.25%;
+}
+
+.block-size{
+    width: 120px;
+    margin: 28px auto;
+    text-align: center;
+}
+
+.block-size p{
+    color: #34404b;
+}
+
+.block-size span{
+    color: #ff5912;
+}
+
+.adv-area .block-size .the-size{
+    opacity: 0.4;
+    color: #34404b;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 7.2px;
+    margin-top: 12px;
+}
+
+
+/* -------------block-370--------------- */
+
+.block-370{
+    float: left;
+    width: 30.833%;
+    max-height: 160px;
+    background: #fff;
+    margin: 120px 1.25% 0;
+    padding: 30px;
+}
+.block-370 .icon-jacket{
+    float: left;
+    width: 40%;
+}
+.best-sales{
+    float: left;
+    width: 60%;
+    position: relative;
+}
+.best-sales::before{
+    content: '';
+    width: 1px;
+    height: 56px;
+    background: #f5f5f6;
+    position: absolute;
+    top: 30%;
+    left: -10%;
+}
+
+.best-sales .price{
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    color: #ff5912;
+}
+.best-sales span img{
+    position: absolute;
+    top: 58px;
+    left: -10px;
+}
+
+.best-sales .image img{
+    position: absolute;
+    top: 56px;
+    left: 28px;
+}
+
+.best-sales .text{
+    position: absolute;
+    top: 56px;
+    right: 50px;
+    color: #ff5912;
+}
+
